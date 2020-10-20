@@ -1,0 +1,49 @@
+.header__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.42);
+  height: 55px;
+  align-items: center;
+  z-index: 999;
+}
+
+.header__list a {
+  text-decoration: none;
+}
+.header__list li {
+  color: #000;
+  padding: 0 50px 0px 50px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.logo {
+  font-size: 36px !important;
+  font-family: "Bilbo Swash Caps", cursive !important;
+  transition: 0.5s;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.page-header {
+  font-size: 120px;
+  font-family: "Bilbo Swash Caps", cursive;
+  color: #fff;
+  animation-duration: 1s;
+  animation-name: grow;
+  margin: 0;
+  padding-top: 10px;
+}
+
+@keyframes grow {
+  0% {
+    font-size: 30px;
+  }
+  100% {
+    font-size: 120px;
+  }
+}
