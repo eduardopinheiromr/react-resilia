@@ -29,6 +29,10 @@
   transform: scale(1.1);
 }
 
+.header__list li:hover,
+.logo :hover {
+  color: #f9ae48;
+}
 .page-header {
   font-size: 120px;
   font-family: "Bilbo Swash Caps", cursive;
